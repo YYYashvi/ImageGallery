@@ -1,0 +1,26 @@
+body{
+	background: linear-gradient(to right,#00AAFF, #00FF6C);
+}
+h1{
+text-align: center;
+color: green;
+margin:30px 0 50px;
+font-family: 'Dancing Script', cursive;
+font-size: 75px;
+}
+
+.Gallery img:hover{
+ transform:scale( 1.1);
+  filter:grayscale(0);
+}
+
+.Gallery{
+margin: 10px 50px;
+}
+
+.Gallery img{
+width:250px;
+padding:5px;
+filter:grayscale(100%);
+transition: 1s;
+}
